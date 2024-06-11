@@ -22,6 +22,11 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
             Expanded(
               flex: 1,
               child: Container(
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/Group 8776.png"),
+                        alignment: Alignment.bottomCenter),
+                    color: Color(0xffEFF3F8)),
                 child: Column(
                   children: [
                     Image.asset("assets/companyname (2).png"),
@@ -36,11 +41,6 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                     )
                   ],
                 ),
-                decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("assets/Group 8776.png"),
-                        alignment: Alignment.bottomCenter),
-                    color: Color(0xffEFF3F8)),
               ),
             ),
             Expanded(
@@ -159,8 +159,6 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                                     appkey: appkey,
                                   );
                                 },
-                                child: const Text("SUBMIT",
-                                    style: TextStyle(color: Colors.white)),
                                 style: ElevatedButton.styleFrom(
                                   fixedSize: const Size(210, 45),
                                   backgroundColor: const Color(0XFF6A75C9),
@@ -168,6 +166,8 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                                     borderRadius: BorderRadius.circular(5.0),
                                   ),
                                 ),
+                                child: const Text("SUBMIT",
+                                    style: TextStyle(color: Colors.white)),
                               ),
                             ),
                           ],
@@ -180,6 +180,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
             ),
           ],
         ),
+    
       );
     });
   }

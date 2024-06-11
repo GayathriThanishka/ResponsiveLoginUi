@@ -24,6 +24,11 @@ class _TabletScaffoldState extends State<TabletScaffold> {
             Expanded(
               flex: 1,
               child: Container(
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/Group 8776.png"),
+                        alignment: Alignment.bottomCenter),
+                    color: Color(0xffEFF3F8)),
                 child: Padding(
                   padding: const EdgeInsets.all(40.0),
                   child: Column(
@@ -38,11 +43,6 @@ class _TabletScaffoldState extends State<TabletScaffold> {
                     ],
                   ),
                 ),
-                decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("assets/Group 8776.png"),
-                        alignment: Alignment.bottomCenter),
-                    color: Color(0xffEFF3F8)),
               ),
             ),
             Expanded( child: Center(

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ResponsiveLayout extends StatefulWidget {
- // const ResponsiveLayout({super.key});
    final Widget mobileScaffold;
  final Widget tabletScaffold;
  final Widget desktopScaffold;
- ResponsiveLayout({required this.mobileScaffold,required this.tabletScaffold,required this.desktopScaffold});
+ const ResponsiveLayout({super.key, required this.mobileScaffold,required this.tabletScaffold,required this.desktopScaffold});
 
   @override
   State<ResponsiveLayout> createState() => _ResponsiveLayoutState();

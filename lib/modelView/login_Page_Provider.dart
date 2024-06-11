@@ -1,4 +1,4 @@
-import 'package:atrewebapplication/responsive/Login%20Responsive/desktop_Scaffold.dart';
+import 'package:atrewebapplication/view/responsive/Login%20Responsive/desktop_Scaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
